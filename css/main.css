@@ -12,12 +12,15 @@ body {
 .header img {
     background: #F5005B;
     padding: 10px;
+    max-width: 150px;
+    flex: 1;
 }
 
 nav {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    flex: 3;
+    width: 50%;
 }
 
 
@@ -162,6 +165,9 @@ hr {
     line-height: 30px;
 }
 
+.footer nav {
+    width: 100%;
+}
 
 }
 
@@ -169,11 +175,13 @@ hr {
 
     .header {
         display: flex;
+        background:#7DDFE8;
     }
 
     nav {
         display: flex;
         flex-direction: row;
+        width: 100%;
     }
 
     .header nav a {
@@ -182,7 +190,7 @@ hr {
     }
 
     nav a:nth-child(3){
-        flex: 3;
+        flex: 1;
     }
 
     .getInvolved {
@@ -206,6 +214,10 @@ hr {
         padding-bottom: 25px;
     }
 
+    .footer nav {
+        max-width: 100%;
+    }
+
     .footer nav a {
         flex: 1;
         padding: 20px;
@@ -215,6 +227,10 @@ hr {
         flex: 3;
         padding: 20px;
         line-height: 60px;
+    }
+
+    .blue-bg {
+        width: 25%;
     }
 
 }

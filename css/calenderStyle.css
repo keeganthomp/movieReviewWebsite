@@ -1,0 +1,45 @@
+
+.calender {
+    background-color: #0B1942;
+    padding: 45px 0 45px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.meetup-title {
+    color: #0B1942;
+    padding: 15px;
+
+}
+
+.date-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.date {
+    background: white;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px solid #0B1942;
+    /*flex: stretch;*/
+}  
+
+.date p {
+    background: #0B1942;
+    color: white;
+    margin: 0;
+    width: 45%;
+    height: 45%;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.selected {
+    background: #F5005B;
+}
