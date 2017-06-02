@@ -1,3 +1,10 @@
+body {
+    font-family:'PT Sans';
+    margin: auto;
+}
+
+@media (min-width: 300px){
+
 .header {
     display: flex;
 }
@@ -25,3 +32,74 @@ nav a:nth-child(2) {
 nav a:nth-child(3) {
     background: #00D5E7;
 }
+
+h2 {
+    font-weight: 400;
+    background: #0B1942;
+    color: white;
+}
+
+h1 {
+    font-weight: 400;
+    color: white;
+}
+
+.sectionTwo {
+    background: #0B1942;
+}
+
+.upNext {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.upNext h1 {
+    flex:1 100%;
+    padding-left: 8%;
+}
+
+.rashomon img {
+    width: 50%;
+    height: 10%;
+    /*margin: 5px;*/
+}
+
+.rashomon {
+    background: #E2E2E2;
+    color: black;
+    display: flex;
+    /*justify-content: space-around;*/
+    margin: 25px;
+    padding: 20px;
+}
+
+.rashomonSidebar {
+    text-align: left;
+    padding-left: 3%;
+    flex: 2;
+}
+
+.rashomonSidebar ul li {
+    padding: 7px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+a {
+    color: #00B7D3;
+    font-size: 1.5rem;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+}
+
+}
+
+
+
