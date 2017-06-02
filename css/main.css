@@ -176,8 +176,9 @@ hr {
         flex-direction: row;
     }
 
-    nav a {
+    .header nav a {
         flex: 1;
+        line-height: 11rem;
     }
 
     nav a:nth-child(3){
@@ -201,10 +202,70 @@ hr {
         flex-wrap: nowrap;
     }
 
+    .sectionTwo {
+        padding-bottom: 25px;
+    }
+
+    .footer nav a {
+        flex: 1;
+        padding: 20px;
+    }
+
+    .footer nav p {
+        flex: 3;
+        padding: 20px;
+        line-height: 60px;
+    }
+
 }
 
 @media (min-width: 1000px) {
-    
+
+    .sectionTwo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sectionTwo h1 {
+        flex: 1 100%;
+    }
+
+    .upNext {
+        display: flex;
+    }
+
+    .main-content {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .main-content div {
+        flex: 1;
+    }
+
+    .otherFilms {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    .otherFilms div {
+        flex: 1 50%;
+    }
+
+    .footer nav a {
+        flex: 1;
+        padding: 25px;
+    }
+
+    .footer nav p {
+        flex: 3 100%;
+        padding: 25px;
+        line-height: 60px;
+
+    }
+
+
 }
 
 
