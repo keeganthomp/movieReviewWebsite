@@ -12,8 +12,8 @@ body {
 .header img {
     background: #F5005B;
     padding: 10px;
-    max-width: 150px;
-    max-height: 1px;
+    max-width: 160px;
+    max-height: 160px;
     flex: 1;
     /*padding: 50px;*/
 }
