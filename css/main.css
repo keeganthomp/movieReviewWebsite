@@ -9,6 +9,11 @@ body {
     display: flex;
 }
 
+.header img {
+    background: #F5005B;
+    padding: 10px;
+}
+
 nav {
     display: flex;
     flex-direction: column;
@@ -46,6 +51,7 @@ h1 {
 
 .sectionTwo {
     background: #0B1942;
+    padding-bottom: 20px;
 }
 
 .upNext {
@@ -98,6 +104,62 @@ hr {
     height: 1px;
     background: #333;
 }
+
+.otherFilms {
+    display: flex;
+    flex-wrap: wrap;
+    background: #E2E2E2;
+    margin: 25px 25px 0 25px;
+}
+
+.otherFilms div {
+    margin: 20px;
+    max-width: 39%;
+}
+
+
+.filmInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.filmInfo img {
+    max-width: 100%;
+}
+
+.otherFilms a {
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.copyright {
+    background: #7DDFE8;
+    text-align: center;
+    height: 100%;
+    flex:1 100%;
+    margin: 0px;
+    padding: 20px;
+    color: white;
+}
+
+.getInvolved {
+    padding: 15px;
+}
+
+.getInvolvedTitle {
+    background: none;
+    color: #0B1942;
+    font-size: 30px;
+}
+
+.getInvolved h2 {
+    padding: 10px;
+}
+
+.getInvolved p {
+    line-height: 30px;
+}
+
 
 }
 
