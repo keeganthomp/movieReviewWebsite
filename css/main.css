@@ -13,7 +13,9 @@ body {
     background: #F5005B;
     padding: 10px;
     max-width: 150px;
+    max-height: 1px;
     flex: 1;
+    /*padding: 50px;*/
 }
 
 nav {
@@ -30,6 +32,7 @@ nav a {
     flex: 1 100%;
     text-align: center;
     line-height: 60px;
+    font-size: 20px;
 }
 
 nav a:nth-child(1) {
@@ -225,7 +228,7 @@ hr {
 
     .footer nav p {
         flex: 3;
-        padding: 20px;
+        padding: 40px 20px ;
         line-height: 60px;
     }
 

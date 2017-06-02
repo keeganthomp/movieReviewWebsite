@@ -20,25 +20,27 @@
 
 .date {
     background: white;
-    width: 75px;
-    height: 75px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    border: 1px solid #0B1942;
-    /*flex: stretch;*/
+    width: calc(100% / 7);
+    padding-bottom: calc(100% / 7);
+    /*display: flex;*/
+    /*justify-content: flex-start;*/
+    /*align-items: flex-start;*/
+    outline: 1px solid #0B1942;
+    
 }  
 
 .date p {
     background: #0B1942;
     color: white;
-    margin: 0;
-    width: 45%;
-    height: 45%;
+    width: 2rem;
     font-size: 12px;
     text-align: center;
     line-height: 30px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
 }
+
 
 .selected {
     background: #F5005B;
