@@ -1,291 +1,244 @@
 body {
-    font-family:'PT Sans';
+    font-family: 'PT Sans';
     margin: auto;
 }
 
-@media (min-width: 300px){
-
-.header {
-    display: flex;
-}
-
-.header img {
-    background: #F5005B;
-    padding: 10px;
-    max-width: 160px;
-    max-height: 160px;
-    flex: 1;
-    /*padding: 50px;*/
-}
-
-nav {
-    display: flex;
-    flex-direction: column;
-    flex: 3;
-    width: 50%;
-}
-
-
-nav a {
-    color: white;
-    text-decoration: none;
-    flex: 1 100%;
-    text-align: center;
-    line-height: 60px;
-    font-size: 20px;
-}
-
-nav a:nth-child(1) {
-    background: #00A5BF;
-}
-nav a:nth-child(2) {
-    background: #00B7D3;
-}
-nav a:nth-child(3) {
-    background: #00D5E7;
-}
-
-h2 {
-    font-weight: 400;
-    background: #0B1942;
-    color: white;
-}
-
-h1 {
-    font-weight: 400;
-    color: white;
-}
-
-.sectionTwo {
-    background: #0B1942;
-    padding-bottom: 20px;
-}
-
-.upNext {
-    color: white;
-    display: flex;
-    flex-direction: column;
-}
-
-.upNext h1 {
-    flex:1 100%;
-    padding-left: 8%;
-}
-
-.rashomon img {
-    width: 50%;
-    height: 10%;
-    /*margin: 5px;*/
-}
-
-.rashomon {
-    background: #E2E2E2;
-    color: black;
-    display: flex;
-    /*justify-content: space-around;*/
-    margin: 25px;
-    padding: 20px;
-}
-
-.rashomonSidebar {
-    text-align: left;
-    padding-left: 3%;
-    flex: 2;
-}
-
-.rashomonSidebar ul li {
-    padding: 7px;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-a {
-    color: #00B7D3;
-    font-size: 1.5rem;
-}
-
-hr {
-    border: 0;
-    height: 1px;
-    background: #333;
-}
-
-.otherFilms {
-    display: flex;
-    flex-wrap: wrap;
-    background: #E2E2E2;
-    margin: 25px 25px 0 25px;
-}
-
-.otherFilms div {
-    margin: 20px;
-    max-width: 39%;
-}
-
-
-.filmInfo {
-    display: flex;
-    flex-direction: column;
-}
-
-.filmInfo img {
-    max-width: 100%;
-}
-
-.otherFilms a {
-    font-size: 15px;
-    padding-top: 5px;
-}
-
-.copyright {
-    background: #7DDFE8;
-    text-align: center;
-    height: 100%;
-    flex:1 100%;
-    margin: 0px;
-    padding: 20px;
-    color: white;
-}
-
-.getInvolved {
-    padding: 15px;
-}
-
-.getInvolvedTitle {
-    background: none;
-    color: #0B1942;
-    font-size: 30px;
-    padding-left: 25px;
-}
-
-.getInvolved h2 {
-    padding: 10px;
-}
-
-.getInvolved p {
-    line-height: 30px;
-}
-
-.footer nav {
-    width: 100%;
-}
-
+@media (min-width: 300px) {
+    .header {
+        display: flex;
+    }
+    .header img {
+        background: #F5005B;
+        padding: 10px;
+        max-width: 160px;
+        max-height: 160px;
+        flex: 1;
+        /*padding: 50px;*/
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        flex: 3;
+        width: 50%;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        flex: 1 100%;
+        text-align: center;
+        line-height: 60px;
+        font-size: 20px;
+    }
+    nav a:nth-child(1) {
+        background: #00A5BF;
+    }
+    nav a:nth-child(2) {
+        background: #00B7D3;
+    }
+    nav a:nth-child(3) {
+        background: #00D5E7;
+    }
+    h2 {
+        font-weight: 400;
+        background: #0B1942;
+        color: white;
+    }
+    h1 {
+        font-weight: 400;
+        color: white;
+    }
+    .sectionTwo {
+        background: #0B1942;
+        padding-bottom: 20px;
+    }
+    .upNext {
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    .upNext h1 {
+        flex: 1 100%;
+        padding-left: 8%;
+    }
+    .rashomon img {
+        width: 50%;
+        height: 10%;
+        /*margin: 5px;*/
+    }
+    .rashomon {
+        background: #E2E2E2;
+        color: black;
+        display: flex;
+        /*justify-content: space-around;*/
+        margin: 25px;
+        padding: 20px;
+    }
+    .rashomonSidebar {
+        text-align: left;
+        padding-left: 3%;
+        flex: 2;
+    }
+    .rashomonSidebar ul li {
+        padding: 7px;
+    }
+    .bold {
+        font-weight: bold;
+    }
+    a {
+        color: #00B7D3;
+        font-size: 1.5rem;
+    }
+    hr {
+        border: 0;
+        height: 1px;
+        background: #333;
+    }
+    .otherFilms {
+        display: flex;
+        flex-wrap: wrap;
+        background: #E2E2E2;
+        margin: 25px 25px 0 25px;
+    }
+    .otherFilms div {
+        margin: 20px;
+        max-width: 39%;
+    }
+    .filmInfo {
+        display: flex;
+        flex-direction: column;
+    }
+    .filmInfo img {
+        max-width: 100%;
+    }
+    .otherFilms a {
+        font-size: 15px;
+        padding-top: 5px;
+    }
+    .copyright {
+        background: #7DDFE8;
+        text-align: center;
+        height: 100%;
+        flex: 1 100%;
+        margin: 0px;
+        padding: 20px;
+        color: white;
+    }
+    .getInvolved {
+        padding: 15px;
+    }
+    .getInvolvedTitle {
+        background: none;
+        color: #0B1942;
+        font-size: 30px;
+        padding-left: 25px;
+    }
+    .getInvolved h2 {
+        padding: 10px;
+    }
+    .getInvolved p {
+        line-height: 30px;
+    }
+    .footer nav {
+        width: 100%;
+    }
+    
+    .footer nav p {
+        padding: 50px;
+    }
 }
 
 @media (min-width: 600px) {
-
     .header {
         display: flex;
-        background:#7DDFE8;
+        background: #7DDFE8;
     }
-
     nav {
         display: flex;
         flex-direction: row;
         width: 100%;
     }
-
     .header nav a {
         flex: 1;
         line-height: 11rem;
     }
-
-    nav a:nth-child(3){
+    nav a:nth-child(3) {
         flex: 1;
     }
-
     .getInvolved {
         display: flex;
     }
-
     .getInvolved div {
         margin: 10px;
     }
-
     .getInvolvedTitle {
         flex: 1 100%;
     }
-
     .otherFilms {
         display: flex;
         flex-wrap: nowrap;
     }
-
     .sectionTwo {
         padding-bottom: 25px;
     }
-
     .footer nav {
         max-width: 100%;
     }
-
     .footer nav a {
         flex: 1;
         padding: 20px;
     }
-
     .footer nav p {
         flex: 3;
-        padding: 40px 20px ;
+        padding: 40px 20px;
         line-height: 60px;
     }
-
     .blue-bg {
         width: 25%;
     }
+    .footer nav p {
+        padding: 55px;
+    }
 
+    .footer nav a {
+        flex: 1;
+        line-height: 8rem;
+    }
 }
 
 @media (min-width: 1000px) {
-
     .sectionTwo {
         display: flex;
         flex-direction: column;
     }
-
     .sectionTwo h1 {
         flex: 1 100%;
     }
-
     .upNext {
         display: flex;
     }
-
     .main-content {
         display: flex;
         align-items: flex-start;
     }
-
     .main-content div {
         flex: 1;
     }
-
     .otherFilms {
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 20px;
     }
-
     .otherFilms div {
         flex: 1 50%;
     }
-
     .footer nav a {
         flex: 1;
         padding: 25px;
     }
-
     .footer nav p {
         flex: 3 100%;
-        padding: 25px;
+        padding: 60px;
         line-height: 60px;
-
+        text-align: right;
     }
-
-
 }
-
-
-
