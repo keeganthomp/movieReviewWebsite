@@ -1,0 +1,29 @@
+Join Film Club
+
+profile picture
+Choose File
+
+name
+
+email address
+
+password
+
+confirm password
+
+Which genres are you interested in?
+action
+adventure
+comedy
+drama
+fantasy
+historical
+horror
+mystery
+romance
+science fiction
+western
+
+Additional input
+
+Join Film Club
