@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    flex: 1 100%;
+    text-align: center;
+    line-height: 60px;
+}
+
+nav a:nth-child(1) {
+    background: #00A5BF;
+}
+nav a:nth-child(2) {
+    background: #00B7D3;
+}
+nav a:nth-child(3) {
+    background: #00D5E7;
+}
