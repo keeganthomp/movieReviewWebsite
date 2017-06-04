@@ -45,7 +45,7 @@
     background: #F5005B;
 }
 
-@media (min-width: 300px){
+@media (min-width: 320px){
 
     .date p{
         line-height: 1.5em;
@@ -54,7 +54,7 @@
 
 }
 
-@media (min-width: 600px){
+@media (min-width: 545px){
 
     .date p {
         line-height: 2rem;
@@ -63,7 +63,7 @@
 
 
 
-@media (min-width: 1000px){
+@media (min-width: 746px){
 
 .date p {
         line-height: 3rem;

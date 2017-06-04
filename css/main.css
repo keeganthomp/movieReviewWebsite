@@ -3,7 +3,7 @@ body {
     margin: auto;
 }
 
-@media (min-width: 300px){
+@media (min-width: 320px){
 
 .header {
     display: flex;
@@ -31,6 +31,10 @@ nav a {
     text-align: center;
     line-height: 60px;
     font-size: 1.2rem;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
 }
 
 nav a:nth-child(1) {
@@ -173,6 +177,7 @@ hr {
 
 .footer nav a {
     font-size: 1.2rem;
+    cursor: pointer;
 }
 
 .footer p {
@@ -182,7 +187,7 @@ hr {
 
 }
 
-@media (min-width: 600px) {
+@media (min-width: 545px) {
 
     .header {
         display: flex;
@@ -198,6 +203,7 @@ hr {
     .header nav a {
         flex: 1;
         line-height: 11rem;
+        cursor: pointer;
     }
 
     nav a:nth-child(3){
@@ -250,7 +256,7 @@ hr {
 
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 769px) {
 
     .sectionTwo {
         display: flex;

@@ -1,4 +1,4 @@
-@media (min-width: 300px) {
+@media (min-width: 320px) {
     form {
         padding: 15px;
     }
@@ -52,7 +52,7 @@
 
 
 
-@media (min-width: 600px) {
+@media (min-width: 545px) {
 
     .imgWrapper {
         margin: 0;       
@@ -84,7 +84,7 @@
 
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 746px) {
 
     .passwords {
         margin: 0;
