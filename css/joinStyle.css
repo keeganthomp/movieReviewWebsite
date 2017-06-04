@@ -1,0 +1,113 @@
+@media (min-width: 300px) {
+    form {
+        padding: 15px;
+    }
+    .profileUpload img {
+        border-radius: 50%;
+        width: 24em;
+    }
+    .joinTitle {
+        color: #0B1942;
+        margin-left: 15px
+    }
+    .names {
+        display: flex;
+        flex-direction: column;
+    }
+    .names input, .passwords input {
+        width: 100%;
+        height: 1.5rem;
+    }
+    .inputWrapper {
+        margin: 10px 0 10px 0;
+    }
+    .checkboxWrapper {
+        margin: 10px 0 10px 0;
+    }
+    textarea {
+        width: 100%;
+    }
+
+    .imgWrapper {
+        margin: 5% 2% 5% 8%;        
+    }
+
+    input[type="submit"]{
+        -webkit-appearance: none;
+        height: 5em;
+        width: 10em;
+        background: #F5005B;
+        border: none;
+        color: white;
+        font-size: 1em;
+        margin: 30px 0 30px 0;
+    }
+
+    .textareaWrapper {
+        margin-top: 30px;
+    }  
+
+
+}
+
+
+
+@media (min-width: 600px) {
+
+    .imgWrapper {
+        margin: 0;       
+    }
+
+    .profileInfo {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .inputs {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .passwords {
+        margin-top: 100px;
+    }
+
+    .interest {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     height: 244px;
+    }
+
+
+}
+
+@media (min-width: 1000px) {
+
+    .passwords {
+        margin: 0;
+    }
+
+    .inputs {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .names, .passwords {
+        width: 50%;
+    }
+
+    .inputWrapper {
+        margin: 15px;
+    }
+
+    .passwords div:nth-child(2){
+        margin-top: 30px;
+    }
+
+
+}
